@@ -7,8 +7,7 @@
   "author": "Ilhyo Aiden Sung<sih8189@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "nodemon --exec babel-node index.js",
-    "heroku-postbuild": "npm install && npm run build"
+    "start": "nodemon --exec babel-node index.js"
   },
   "dependencies": {
     "axios": "^0.19.2",
